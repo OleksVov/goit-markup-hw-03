@@ -13,6 +13,14 @@ logo #000000 #2196F3 #FFFFFF Raleway 700
 hover #2196F3 mail #757575 
 portfolio #212121 Roboto 500
  */
+html {
+   box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
 :root {
    --primary-text-color: #757575;
    --title-text-color: #212121;
